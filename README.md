@@ -30,13 +30,16 @@ Rails.
 # Description of Contents
 
 * **app**
+
 Holds all the code that's specific to this particular application.
 
 * **app/controllers**
+
 Holds controllers that should be named like weblogs_controller.rb for automated URL mapping.
 All controllers should descend from ApplicationController which itself descends from ActionController::Base.
 
 * **app/models**
+
 Holds models that should be named like post.rb.
 Most models will descend from ActiveRecord::Base.
 
